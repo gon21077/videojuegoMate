@@ -2,12 +2,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import javax.swing.*;
 import java.util.*;
 /**
- * Write a description of class InputUsuario here.
+ * Write a description of class InputUsuario1 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class InputUsuario extends Actor
+public class InputUsuario1 extends Actor
 {
     int numero1 = Greenfoot.getRandomNumber(100);
     int numero2 = Greenfoot.getRandomNumber(100);
@@ -17,13 +17,13 @@ public class InputUsuario extends Actor
     int respuesta = numero1*numero2;
     String respuesta1 = Integer.toString(respuesta);
 
-    public InputUsuario()
+    public InputUsuario1()
     {
         String inputstring = JOptionPane.showInputDialog(numeroS1+"*"+numeroS2);
         
         if(inputstring.equals(respuesta1))
         {
-         GreenfootImage puntos = new GreenfootImage("Bien hecho!", 
+         GreenfootImage puntos = new GreenfootImage("Bien Hecho!", 
         40, 
         Color.BLACK, 
         Color.WHITE);
@@ -35,7 +35,7 @@ public class InputUsuario extends Actor
         }
     }
     /**
-     * Act - do whatever the InputUsuario wants to do. This method is called whenever
+     * Act - do whatever the InputUsuario1 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
