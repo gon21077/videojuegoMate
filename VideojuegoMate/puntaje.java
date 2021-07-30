@@ -7,7 +7,7 @@ import java.util.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class problema extends Actor
+public class puntaje extends Actor
 {
     int numero1 = Greenfoot.getRandomNumber(100);
     int numero2 = Greenfoot.getRandomNumber(100);
@@ -17,7 +17,7 @@ public class problema extends Actor
     int respuesta = numero1*numero2;
     String respuesta1 = Integer.toString(respuesta);
 
-    public problema()
+    public puntaje()
     {
         GreenfootImage puntos = new GreenfootImage("Puntos: "+Integer.toString(score), 
         40, 

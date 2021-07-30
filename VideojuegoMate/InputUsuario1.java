@@ -13,8 +13,7 @@ public class InputUsuario1 extends Actor
     int numero2 = Greenfoot.getRandomNumber(10);
     String numeroS1 = Integer.toString(numero1);
     String numeroS2 = Integer.toString(numero2);
-    int score = 0;
-    int respuesta = numero1*numero2;
+    int respuesta = numero1/numero2;
     String respuesta1 = Integer.toString(respuesta);
 
     public InputUsuario1()
